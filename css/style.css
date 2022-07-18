@@ -1,0 +1,72 @@
+body{
+    color: rgb(0, 89, 255);
+}
+
+h1{
+    text-align: center;
+    font-size: 90px;
+    margin: 0;
+}
+
+.W-title{
+    position: relative;
+    top: 60px;
+    font-family: Ubuntu;
+}
+
+.W-subtitle{
+    position: relative;
+    font-size: 75px;
+    top:80px;
+    font-family: Ubuntu;
+}
+
+.user{
+    color: rgb(8, 111, 237);
+    text-decoration: underline;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 150px;
+    font-family: Montserrat;
+}
+
+.brand{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 38px;
+    position: relative;
+    top: 50px;
+}
+
+.btn
+{
+    width: 250px;
+}
+
+.row{
+    margin: 25px;
+    z-index: 1;
+    position: relative;
+    top: 20px;
+}
+
+.right-col{
+    text-align: right;
+}
+
+.help{
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 30px;
+    padding: 50px;
+
+}
+
+.help-txt{
+    position: relative;
+    top: 30px;
+}
+
+
+

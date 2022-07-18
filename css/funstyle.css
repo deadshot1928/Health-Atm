@@ -1,0 +1,52 @@
+body{
+    color: rgb(6, 139, 255);
+    background-color: rgb(221, 221, 221);;
+}
+
+.brand{
+    width: 250px;
+}
+
+.title{
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 70px;
+    text-decoration: underline;
+}
+
+.main{
+    padding: 40px 50px;
+    padding-bottom: 0;
+}
+
+.fun-main{
+    padding: 50px;
+}
+
+.function-title{
+    background-color: rgb(6, 139, 255);
+    color: rgb(221, 221, 221);
+    text-align: center;
+    padding: 125px 50px;
+    border-radius: 100%;
+    width: 450px;
+    height: 450px;
+}
+
+.f-title-head{
+    font-size: 70px;
+    font-family: Ubuntu;
+}
+
+.fun-col{
+    text-align: center;
+}
+
+.function{
+    padding: 20px;
+}
+
+.btn
+{
+    width: 250px;
+}
