@@ -1,0 +1,73 @@
+body{
+    color: rgb(6, 139, 255);
+    background-color: rgb(221, 221, 221);
+    padding: 50px;
+}
+
+.navi{
+    position: relative;
+    left: 908px;
+}
+
+.brand{
+    width: 250px;
+}
+
+
+.main{
+    text-align: center;
+}
+
+.doctors{
+    background-color: rgb(6, 139, 255);
+    color:rgb(221, 221, 221) ;
+    border-radius: 7%;
+}
+
+h1{
+    font-size: 70px;
+    text-decoration: underline;
+    font-family: Ubuntu;
+    margin-bottom: 50px;
+}
+
+.doc{
+    text-align: left;
+}
+
+.t-h2{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    display: inline;
+}
+
+.t-image{
+    width: 10rem;
+    border-radius: 100%;
+    margin: 2rem 1rem;
+    display: inline;
+}
+
+.carousel-item{
+    padding: 3rem 17rem;
+}
+
+
+.doc-img{
+    border-radius: 100%;
+    height:200px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.doc{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+
+p{
+    width: 875.2px;
+}

@@ -1,7 +1,13 @@
 body{
     color: rgb(6, 139, 255);
-    background-color: rgb(221, 221, 221);;
+    background-color: rgb(221, 221, 221);
 }
+
+.navi{
+    position: relative;
+    left: 908px;
+}
+
 
 .brand{
     width: 250px;
@@ -40,13 +46,20 @@ body{
 
 .fun-col{
     text-align: center;
+    width: 680px;
 }
 
 .function{
     padding: 20px;
 }
 
-.btn
+.fun-btn
 {
     width: 250px;
+}
+
+.report-col{
+    text-align: center;
+    width: 210px;
+    padding-top: 196px;
 }
