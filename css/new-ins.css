@@ -1,0 +1,75 @@
+body{
+    color: rgb(6, 139, 255);
+    background-color: rgb(221, 221, 221);
+    padding: 50px;
+}
+
+.brand-logo{
+    width: 60px;
+}
+
+.brand-product{
+    display: inline;
+    font-size: 50px;
+    margin: 0;
+    position: absolute;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.title{
+    font-family: Ubuntu;
+    font-size: 85px;
+    text-decoration: underline;
+}
+
+.main{
+    text-align: center;
+}
+
+.sub{
+    width: 810px;
+    margin: 0 auto;
+    text-align: left;
+    background-color:  rgb(6, 139, 255);
+    color: rgb(221, 221, 221);
+    border-radius: 10%;
+    padding: 50px 50px;
+    padding-bottom: 20px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+
+.pi-con{
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.pi-con.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.premium{
+    background-color: rgb(6, 139, 255);
+    color: rgb(221, 221, 221);
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+}

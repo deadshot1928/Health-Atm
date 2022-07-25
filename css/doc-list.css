@@ -4,13 +4,17 @@ body{
     padding: 50px;
 }
 
-.navi{
-    position: relative;
-    left: 908px;
+.brand-logo{
+    width: 60px;
 }
 
-.brand{
-    width: 250px;
+.brand-product{
+    display: inline;
+    font-size: 50px;
+    margin: 0;
+    position: absolute;
+    padding-left: 10px;
+    text-decoration: none;
 }
 
 
@@ -28,7 +32,7 @@ h1{
     font-size: 70px;
     text-decoration: underline;
     font-family: Ubuntu;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .doc{

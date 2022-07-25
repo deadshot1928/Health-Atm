@@ -17,13 +17,16 @@
 
 
         <link rel="stylesheet" href="css/funstyle.css">
+        <link rel="stylesheet" href="css/btn-skin&ear.css">
     </head>
     <body>
         <div class="main">
             <a href="https://www.capgemini.com/"><img class="brand" src="images/capgemini.png" alt="capgemini"></a>
-            <a class="navi" href="index.html"><button type="button" class="btn btn-outline-primary">Home</button></a>
 
-            <h1 class="title">Health-ATM</h1>
+            <div class="title">
+                <a href="index.html"><h1 class="title">Health-ATM</h1></a>
+            </div>
+            
             <div class="row fun-main">
                 <div class="col-lg-6 function-title" style="padding-top: 150px;">
                     <h1 class="f-title-head">Skin & Ear Test</h1>
@@ -31,19 +34,38 @@
                 <div class="col-lg-6 fun-col" style="padding-top: 125px;">
                     <div class="row function">
                         <div class="col">
-                            <button type="button" class="btn btn-outline-primary btn-lg fun-btn">Skin Examination</button>
+                            <button type="button" id="skin-open-btn" class="btn btn-outline-primary btn-lg fun-btn">Skin Examination</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" id="ear-open-btn" class="btn btn-outline-primary btn-lg fun-btn">Ear Examination</button>
                         </div>
                     </div>
-                    <div class="row function">
+                    <div class="row function report">
                         <div class="col">
-                            <button type="button" class="btn btn-outline-primary btn-lg fun-btn">Ear Examination</button>
+                            <button type="button" class="btn btn-outline-dark btn-lg">Generate Report</button>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="skin-con" id="skin-con">
+                <div class="skin">
+                    <h1>Instructions</h1>
+                    <p>Please stand straight on the platform. Your height is being calculated.</p>
+                    <button type="button" id="skin-close-btn" class="btn btn-outline-dark">Close</button>
+                </div>
+            </div>
+
+            <div class="ear-con" id="ear-con">
+                <div class="ear">
+                    <h1>Instructions</h1>
+                    <p>Please stand straight on the platform. Your height is being calculated.</p>
+                    <button type="button" id="ear-close-btn" class="btn btn-outline-dark">Close</button>
+                </div>
+            </div>
+
         </div>
         
-
+        <script src="js/skin&ear-test.js"></script>
     </body>
 </html>

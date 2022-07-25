@@ -17,46 +17,78 @@
 
 
         <link rel="stylesheet" href="css/funstyle.css">
+        <link rel="stylesheet" href="css/btn-blood-test.css">
     </head>
     <body>
         <div class="main">
             <a href="https://www.capgemini.com/"><img class="brand" src="images/capgemini.png" alt="capgemini"></a>
-            <a class="navi" href="index.html"><button type="button" class="btn btn-outline-primary">Home</button></a>
-
-            <h1 class="title">Health-ATM</h1>
+            <div class="title">
+                <a href="index.html"><h1 class="title">Health-ATM</h1></a>
+            </div>
+            
             <div class="row fun-main">
                 <div class="col-lg-6 function-title" style="padding-top: 150px;padding-bottom: 150px;">
                     <h1 class="f-title-head">Blood Test</h1>
                 </div>
                 <div class="col-lg-6 fun-col" style="padding-top: 50px;">
-                    <div class="row function">
+                    <div class="row function" style="margin-top: 50px;">
                         <div class="col">
-                            <button type="button" class="btn btn-outline-primary btn-lg fun-btn">Tiphoid</button>
+                            <button type="button" id="ti-open-btn" class="btn btn-outline-primary btn-lg fun-btn">Tiphoid</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" id="hem-open-btn" class="btn btn-outline-primary btn-lg fun-btn">Hemoglobin</button>
                         </div>
                     </div>
                     <div class="row function">
                         <div class="col">
-                            <button type="button" class="btn btn-outline-primary btn-lg fun-btn">Hemoglobin</button>
+                            <button type="button" id="glu-open-btn" class="btn btn-outline-primary btn-lg fun-btn">Glucose</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" id="hiv-open-btn" class="btn btn-outline-primary btn-lg fun-btn">HIV</button>
                         </div>
                     </div>
-                    <div class="row function">
+                    <div class="row function report">
                         <div class="col">
-                            <button type="button" class="btn btn-outline-primary btn-lg fun-btn">Glucose</button>
-                        </div>
-                    </div>
-                    <div class="row function">
-                        <div class="col">
-                            <button type="button" class="btn btn-outline-primary btn-lg fun-btn">HIV</button>
+                            <button type="button" class="btn btn-outline-dark btn-lg">Generate Report</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 report-col">
-                    <button type="button" class="btn btn-outline-dark btn-lg">Generate Report</button>
+            </div>
+
+            <div class="ti-con" id="ti-con">
+                <div class="Tiphoid">
+                    <h1>Instructions</h1>
+                    <p>Please stand straight on the platform. Your height is being calculated.</p>
+                    <button type="button" id="ti-close-btn" class="btn btn-outline-dark">Close</button>
+                </div>
+            </div>
+
+            <div class="hem-con" id="hem-con">
+                <div class="Hemoglobin">
+                    <h1>Instructions</h1>
+                    <p>Please stand straight on the platform. Your height is being calculated.</p>
+                    <button type="button" id="hem-close-btn" class="btn btn-outline-dark">Close</button>
+                </div>
+            </div>
+
+            <div class="glu-con" id="glu-con">
+                <div class="Glucose">
+                    <h1>Instructions</h1>
+                    <p>Please stand straight on the platform. Your height is being calculated.</p>
+                    <button type="button" id="glu-close-btn" class="btn btn-outline-dark">Close</button>
+                </div>
+            </div>
+
+            <div class="hiv-con" id="hiv-con">
+                <div class="HIV">
+                    <h1>Instructions</h1>
+                    <p>Please stand straight on the platform. Your height is being calculated.</p>
+                    <button type="button" id="hiv-close-btn" class="btn btn-outline-dark">Close</button>
                 </div>
             </div>
 
         </div>
         
-
+        <script src="js/blood-test.js"></script>
     </body>
 </html>
