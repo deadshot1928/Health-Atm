@@ -1,4 +1,24 @@
 /*Height -------------------------------*/
+.h-load{
+    border: 5px solid  rgb(221, 221, 221);
+    border-top: 5px solid rgb(6, 139, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+
+.hide-load{
+    display: none;
+}
+
+@keyframes spin{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
 .h-con{
     background-color: rgba(0,0,0,0.3);
     position: fixed;
@@ -31,6 +51,16 @@
 }
 
 /*Weight -------------------------------*/
+
+.w-load{
+    border: 5px solid  rgb(221, 221, 221);
+    border-top: 5px solid rgb(6, 139, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
 
 .w-con{
     background-color: rgba(0,0,0,0.3);
@@ -65,6 +95,16 @@
 
 /*bp -------------------------------*/
 
+.bp-load{
+    border: 5px solid  rgb(221, 221, 221);
+    border-top: 5px solid rgb(6, 139, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+
 .bp-con{
     background-color: rgba(0,0,0,0.3);
     position: fixed;
@@ -98,6 +138,16 @@
 
 /*temp -------------------------------*/
 
+.temp-load{
+    border: 5px solid  rgb(221, 221, 221);
+    border-top: 5px solid rgb(6, 139, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+
 .temp-con{
     background-color: rgba(0,0,0,0.3);
     position: fixed;
@@ -130,6 +180,16 @@
 }
 
 /*ox -------------------------------*/
+
+.ox-load{
+    border: 5px solid  rgb(221, 221, 221);
+    border-top: 5px solid rgb(6, 139, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
 
 .ox-con{
     background-color: rgba(0,0,0,0.3);

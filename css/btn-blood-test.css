@@ -1,4 +1,23 @@
 /*Height -------------------------------*/
+.ti-load{
+    border: 5px solid  rgb(221, 221, 221);
+    border-top: 5px solid rgb(6, 139, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+
+.hide-load{
+    display: none;
+}
+
+@keyframes spin{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
 .ti-con{
     background-color: rgba(0,0,0,0.3);
     position: fixed;
@@ -31,6 +50,16 @@
 }
 
 /*Height -------------------------------*/
+.hem-load{
+    border: 5px solid  rgb(221, 221, 221);
+    border-top: 5px solid rgb(6, 139, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+
 .hem-con{
     background-color: rgba(0,0,0,0.3);
     position: fixed;
@@ -63,6 +92,16 @@
 }
 
 /*Height -------------------------------*/
+.glu-load{
+    border: 5px solid  rgb(221, 221, 221);
+    border-top: 5px solid rgb(6, 139, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+
 .glu-con{
     background-color: rgba(0,0,0,0.3);
     position: fixed;
@@ -95,6 +134,16 @@
 }
 
 /*Height -------------------------------*/
+.hiv-load{
+    border: 5px solid  rgb(221, 221, 221);
+    border-top: 5px solid rgb(6, 139, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+}
+
 .hiv-con{
     background-color: rgba(0,0,0,0.3);
     position: fixed;

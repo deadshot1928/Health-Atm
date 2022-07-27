@@ -26,7 +26,7 @@
         <a href="index.html"><h1 class="brand-product">Health-ATM</h1></a>
 
         <div class="main">
-            <h1 class="title">New Commercial Insurance</h1>
+            <h1 class="title" style="font-size: 60px;">New Commercial Insurance</h1>
 
             <div style="padding: 0 100px 20px 0; text-align: right;">
                 <a href="new-policy.html"><button type="button" class="btn btn-outline-primary">Back to new policy</button></a>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="form-group row">
                       <label for="dob" class="col-sm-2 col-form-label">Date of Birth</label>
-                      <div class="col-sm-10">
+                      <div class="col-sm-10" style="width: 180px;">
                         <input type="date" class="form-control" id="dob">
                       </div>
                     </div>
@@ -88,6 +88,14 @@
                     <p>Your Tentative premium is <span id="par"></span> per month with insurance company as HDFC</p>
                     <button type="button" id="pi-close-btn" class="btn btn-outline-dark">Close</button>
                 </div>
+            </div>
+
+            <div class="no-con" id="no-con">
+              <div class="no">
+                  <h5>Warning!!</h5>
+                  <p>Please select atleast 1 coverage</p>
+                  <button type="button" id="no-close-btn" class="btn btn-outline-danger">Close</button>
+              </div>
             </div>
 
         </div>

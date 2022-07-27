@@ -42,7 +42,7 @@
                     </div>
                     <div class="form-group row">
                       <label for="dob" class="col-sm-2 col-form-label">Date of Birth</label>
-                      <div class="col-sm-10">
+                      <div class="col-sm-10" style="width: 180px;">
                         <input type="date" class="form-control" id="dob">
                       </div>
                     </div>
@@ -85,9 +85,17 @@
 
             <div class="pi-con" id="pi-con">
                 <div class="premium">
-                    <p>Your Tentative premium is <span id="par"></span> per month with insurance company as HDFC</p>
+                    <p>Your Tentative premium is <span id="par"></span> per month with Capgemini insurance company</p>
                     <button type="button" id="pi-close-btn" class="btn btn-outline-dark">Close</button>
                 </div>
+            </div>
+
+            <div class="no-con" id="no-con">
+              <div class="no">
+                  <h5>Warning!!</h5>
+                  <p>Please select atleast 1 coverage</p>
+                  <button type="button" id="no-close-btn" class="btn btn-outline-danger">Close</button>
+              </div>
             </div>
 
         </div>
