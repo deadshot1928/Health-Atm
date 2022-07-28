@@ -74,3 +74,21 @@ hiv_close.addEventListener('click',()=>{
     hiv_con.classList.remove('show');
 })
 
+
+const wel_con=document.getElementById('wel-con');
+const wel_close=document.getElementById('wel-close-btn');
+const wel_load=document.getElementById('wel-load');
+
+    wel_con.classList.add('show');
+    var st="Blood Sample collected, You can now close this window";
+    setTimeout(function(){
+        wel_load.classList.add('hide-load');
+        document.getElementById('par-wel').innerHTML=st;
+        
+    },4000);
+
+
+wel_close.addEventListener('click',()=>{
+    wel_con.classList.remove('show');
+})
+

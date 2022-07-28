@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Doctor Finder</title>
+        <title>Pharmacy finder</title>
         <link rel="icon" href="images/favicon.ico">
         <!-- Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -17,36 +17,47 @@
 
 
         <link rel="stylesheet" href="css/funstyle.css">
+        <link rel="stylesheet" href="css/btn-skin&ear.css">
     </head>
     <body>
         <a href="https://www.capgemini.com/"><img class="brand-logo" src="images/cap-logo.png" alt="capgemini"></a>
         <a href="index.html"><h1 class="brand-product">Health-ATM</h1></a>
         <div class="main">
-            
+
             
             <div class="row fun-main">
                 <div class="col-lg-6 function-title">
-                    <h1 class="f-title-head">Doctor Finder</h1>
+                    <h1 class="f-title-head">Pharmacy finder</h1>
                 </div>
-                <div class="col-lg-6 fun-col">
-                    <div class="row function" style="margin-top: 100px;">
-                        <div class="col">
-                            <a href="Eye-doc.html"><button type="button" class="btn btn-outline-primary btn-lg fun-btn">Eye Care</button></a>
-                        </div>
-                        <div class="col">
-                            <a href="Blood-doc.html"><button type="button" class="btn btn-outline-primary btn-lg fun-btn">Blood Care</button></a>
-                        </div>
-                    </div>
+                <div class="col-lg-6 fun-col" style="padding-top: 125px;">
                     <div class="row function">
                         <div class="col">
-                            <a href="Phy-doc.html"><button type="button" class="btn btn-outline-primary btn-lg fun-btn">Physician</button></a>
+                            <a href="med-store.html"><button type="button" id="skin-open-btn" class="btn btn-outline-primary btn-lg fun-btn">Store Finder</button></a>
+                        </div>
+                        <div class="col">
+                            <a href="med-finder.html"><button type="button" id="ear-open-btn" class="btn btn-outline-primary btn-lg fun-btn">Medicine Finder</button></a>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="skin-con" id="skin-con">
+                <div class="skin">
+                    <h1>Instructions</h1>
+                    <p>Please scan the infected area of your skin by the attached dermatoscope.</p>
+                    <button type="button" id="skin-close-btn" class="btn btn-outline-dark">Close</button>
+                </div>
+            </div>
+
+            <div class="ear-con" id="ear-con">
+                <div class="ear">
+                    <h1>Instructions</h1>
+                    <p>Please put the attached otoscope in your ear to see inside.</p>
+                    <button type="button" id="ear-close-btn" class="btn btn-outline-dark">Close</button>
+                </div>
+            </div>
+
         </div>
-        
 
     </body>
 </html>
