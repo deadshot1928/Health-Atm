@@ -44,6 +44,11 @@ test_next.addEventListener('click',()=>{
         document.getElementById('par-res').innerHTML=s2;
     else
         document.getElementById('par-res').innerHTML=s1;
+
+    const $select_l = document.querySelector('#left');
+    $select_l.value = "0";
+    const $select_r = document.querySelector('#right');
+    $select_r.value = "0";
 })
 
 res_close.addEventListener('click',()=>{
