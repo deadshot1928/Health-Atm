@@ -5,7 +5,7 @@ const ti_load=document.getElementById('ti-load');
 
 ti_open.addEventListener('click',()=>{
     ti_con.classList.add('show');
-    var s="Tiphoid Test is completed!!";
+    var s="Typhoid Test is completed!!";
     setTimeout(function(){
         ti_load.classList.add('hide-load');
         document.getElementById('par-ti').innerHTML=s;
